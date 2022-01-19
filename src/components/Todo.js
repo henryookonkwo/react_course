@@ -6,7 +6,6 @@ function Todo(props) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   function deleteHandler() {
-    // console.log("Clicked " + props.text);
     setModalIsOpen(true);
   }
 
